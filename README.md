@@ -3,6 +3,11 @@ Este repositório serve apenas para conter tópicos (issues) que afetam
 múltiplos repositórios da WebIWG
 
 ---
+<!--
+  IMPORTANTE: a partir daqui, este arquivo é igual em webiwg-issues e
+              webiwg.github.io. Ao fazer edições neste arquivo, edite
+              AMBOS os locais!
+-->
 
 ## O que é WebIWG?
 
