@@ -2,6 +2,8 @@
 Este repositório serve apenas para conter tópicos (issues) que afetam 
 múltiplos repositórios da WebIWG
 
+## Mensagens de submissão de código (commit) descritivas
+
 Ao submeter código, se o isse está no prório repositório use:
 
     #123: Descrição curta do que este commit faz
@@ -19,6 +21,10 @@ commits com multiplas linhas
     webiwg/webiwg-issues#10
     webiwg/webiwg-issues#11
 
+### Errei ou esqueci a linkagem. O que faço?
+
+Vá pela interface web do Github, e [comente no final da página a
+referência correta, como neste exemplo](https://github.com/webiwg/eventos-web/commit/f658fe99ac5a0f77aecfc91fef44cdf3f3a4596a#commitcomment-18892143).
 
 ---
 <!--
