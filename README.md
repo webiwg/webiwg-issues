@@ -2,6 +2,24 @@
 Este repositório serve apenas para conter tópicos (issues) que afetam 
 múltiplos repositórios da WebIWG
 
+Ao submeter código, se o isse está no prório repositório use:
+
+    #123: Descrição curta do que este commit faz
+
+Não obstante, se está submetendo em outro repositório, mas o tópico
+que ele resolve está aqui, use a sintaxe
+
+    webiwg/webiwg-issues#123: Descrição curta do que este commit faz
+
+Ou, se você está resolvendo dois issues ao mesmo tempo (ainda que
+o ideal é fazer commits para apenas um issue por vez, poderia fazer
+commits com multiplas linhas
+
+    Adicionado jekyll-sitemap; adicionado jekyll-seo-tag
+    webiwg/webiwg-issues#10
+    webiwg/webiwg-issues#11
+
+
 ---
 <!--
   IMPORTANTE: a partir daqui, este arquivo é igual em webiwg-issues e
