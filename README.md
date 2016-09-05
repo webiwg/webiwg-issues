@@ -1,5 +1,7 @@
 # WebIWG Issues
-Este repositório serve apenas para conter tópicos (issues) que afetam 
+See [this document in English in README-en.md](README-en.md).
+
+Este repositório serve apenas para conter tópicos (issues) que afetam
 múltiplos repositórios da WebIWG
 
 ## Mensagens de submissão de código (commit) descritivas
@@ -35,7 +37,7 @@ referência correta, como neste exemplo](https://github.com/webiwg/eventos-web/c
 
 ## O que é WebIWG?
 
-[WebIWG](http://www.webiwg.org) é um grupo de trabalho independente focado em 
+[WebIWG](http://www.webiwg.org) é um grupo de trabalho independente focado em
 tecnologias da Web, auto-organizado e sem fins lucrativos.
 
 # Projetos ativos atuais
