@@ -1,5 +1,11 @@
 # WebIWG Issues
-Veja [versão em português deste documento](README.md).
+<!--
+  IMPORTANTE: a partir daqui, este arquivo é igual em webiwg-issues e
+              webiwg.github.io. Ao fazer edições neste arquivo, edite
+              AMBOS os locais!
+-->
+
+Veja [versão em português deste documento em README.md](README.md).
 
 ## O que é WebIWG?
 
@@ -9,23 +15,23 @@ focused on Web technologies.
 # Active projects
 
 ## Texts about Web accessibility in Portuguese
-Here you can find texts about Web accessibility translated into portuguese.
+Here you can find texts about Web accessibility translated into Portuguese.
 Its goal is to allow collaborators propose relevant texts about the theme and,
 after discussed, they be translated by our working group.
 
 We are always in need of people who can translate texts in other languages into
-portuguese, and people does not need to know neither HTML or about
+Portuguese, and people does not need to know neither HTML or about
 accessibility previously. We look forward to our work helping inspire new
-projects, which today, August 2016, are unimaginable by the portuguese speaking
+projects, which today, August 2016, are unimaginable by the Portuguese speaking
 web dev community.
 
 This project is coordinated by [Vilmar Neto](https://github.com/Dkmister).
 It is published on [http://acessibilidade.pt.webiwg.org/](http://acessibilidade.pt.webiwg.org/)
 and its source code can be found in [https://github.com/webiwg/acessibilidade-web-pt](https://github.com/webiwg/acessibilidade-web-pt).
 
-## History of the Web in portuguese
+## History of the Web in Portuguese
 Here you can find texts about the history of the Web from its beginning to date
-in portuguese, from either worldwide abrangency and specific from Brazil.
+in Portuguese, from either worldwide abrangency and specific from Brazil.
 
 More than just presenting a timeline, the purpose is to go beyond and be a
 guideline to people understand what was made to reach the point where the Web is,

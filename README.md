@@ -83,3 +83,31 @@ possivelmente melhorando a integração da comunidade de desenvolvedores.
 O projeto é coordenado por [Ana Luiza Bastos](https://github.com/anabastos).
 O site publicado está em [http://eventos.webiwg.org](http://eventos.webiwg.org)
 e seu código fonte em [https://github.com/webiwg/eventos-web](https://github.com/webiwg/eventos-web).
+
+# Tradução de textos
+Para textos importantes para promoção de Acessibilidade na Web e/ou na História
+da Web, nossos voluntários poderão entrar em contato com autores originais ou
+detentores dos direitos de cópia para pedir autorização para realizar tradução
+para português e, mesmo que não seja traduzido imediatamente, também para
+espanhol.
+
+Todas as traduções envolvem pelo menos duas pessoas ou, caso nenhuma destas
+tenham experiência técnica no assunto, pelo menos uma terceira com experiência
+técnica como revisor. Como todo conteúdo é disponibilizado no Github, outras
+pessoas também poderão sugerir melhorias, porém isso também dependerá de
+revisão de pessoas de nossa confiança.
+
+## Autorização para tradução e detalhes extras
+**A WebIWG não possui fins lucrativos, cujas traduções aqui são feitas
+principalmente para uso educacional**. Autorização para traduções vai além de
+proteger de _DMCA takedowns_, mas também permitir que o autor tome algumas
+decisões. Por exemplo, você pode explicitamente dizer que pessoas poderão
+entrar em contato por e-mail, ou nos indicar que não devemos fazer isso. Isto é
+decidido caso a caso.
+
+Como temos um projeto focado em [História da Web em português](https://github.com/webiwg/historia-web-pt)
+caso tenha interesse também faremos questão de traduzir para todos os idiomas
+que seus textos forem traduzidos também uma mini biografia sua. Você também
+poderá fornecer uma foto pessoal sua para aparecer quando seu artigo for
+compartilhado, caso contrário poderá aparecer uma foto da pessoa responsável
+pela tradução.
