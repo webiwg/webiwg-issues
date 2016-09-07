@@ -59,6 +59,9 @@ irrelevantes a tradução.
 
 ### Como preparar documento
 
+TL;DR: documentos HTML podem ser convertidos para markdown com ajuda de
+ferramentas. Uma online é a https://domchristie.github.io/to-markdown/
+
 #### Da origem dos dados
 Na maioria das vezes, a origem dos dados é uma página única, porém isso não
 ocorrerá sempre. Um exemplo é a tradução de uma troca de e-mails que tem
@@ -100,12 +103,12 @@ Tendo em mente esses dois problemas, se for possível escolher um bom nome que
 não precisará ser alterado no futuro, melhor. Se estiver em dúvida, discuta
 essa escolha com os demais
 
-### Da cópia de arquivo original como backup
+#### Da cópia de arquivo original como backup
 Idealmente, devemos ter pelo menos duas cópias no repositório, e opcionalmente
 uma terceira
 
-1. **Copia a ser traduzida**, exemplo `/nvda/mudando-do-jaws-para-o-nvda.md`
-2. **Copia do original, formatada**, exemplo `/nvda/_switching-from-jaws-to-nvda.md`
+1. **Copia a ser traduzida**, exemplo `/nvda/mudando-do-jaws-para-o-nvda/index.md`
+2. **Copia do original, formatada**, exemplo `/nvda/mudando-do-jaws-para-o-nvda/_original.md`
 3. **Cópia bruta do original**, (opcional!) e aplicável somente a documentos que
 podem ser alterados e não há um controle de versão na origem
 
@@ -114,3 +117,45 @@ controle para não serem acessados, ou pelo menos indexados por mecanismos
 de busca, no site final gerado nos repositórios, pois é comum que autores
 permitam a tradução, mas não uma cópia idêntica do original em site de
 terceiros.
+
+#### Da formatação do documento
+
+**Muito importante**: a formatação do documento, além de resolver conversão de
+outros formatos para markdown, **tem como objetivo facilitar o trabalho da
+equipe de tradução em detrimento de formatação de texto, limite de colunas,
+e afins**. Como o tamanho das palavras sempre serão diferentes de um idioma
+para o outro, é melhor usar o bom senso do que forçar um limite de, por
+exemplo, 80 caracteres.
+
+##### Da escolha de quebra de linhas
+A equipe de tradução será orientada a fazer tradução linha por linha, e
+não serão convidados sequer a saber quantidade de caracteres por linha. É
+responsabilidade de quem formata o documento usar bom senso e que, a
+escolha que você tomar, vai ficar assim por anos. Não que isso seja algo
+grave, mas facilita se levar em consideração alguns pontos a seguir.
+
+**Procure fazer quebras de linhas somente a cada ponto final** ou, se as
+frases forem MUITO grandes, como um parágrafo inteiro, **quebre após 
+alguma virgula**. A meta é que a equipe de tradução tenda a manter
+a tradução exata anterior na mesma alteração de linha. Isto facilita
+na hora de investigar o passado.
+
+Tende a não valer a pena quebrar linhas em itens que fazem mais sentido
+juntos. Por exemplo, um título (h1, h2, h3...) no original, mesmo que
+seja grande, pode valer a pena deixar junto. Uma legenda de imagem
+que não for muito grande também pode fazer mais sentido manter na mesma
+linha.
+
+#### Da inclusão de imagens
+Caso seja necessário adicionar imagens do original, o ideal é que elas
+já estejam otimizadas para serem exibidas via web, a não ser que a
+razão de existir das imagens seja permitir impressão. É recomendável
+que vocễ use sites como https://tinypng.com/ ou https://tinyjpg.com/
+antes de adicionar a imagem.
+
+Outro ponto é que idealmente imagens e arquivos relacionados a
+uma tradução, fiquem na mesma pasta da tradução, exceto em casos
+muito especiais em que a imagem é reutilizada muitas vezes, mas
+por padrão, adicione mais uma vez cada imagem.
+
+
