@@ -1,7 +1,40 @@
 # Processo de tradução da WebIWG
 
-**Nota: este documento NÃO foi revisado, e deve conter erros de português e de
-lógica do processo**. Veja também o tópico [#6](https://github.com/webiwg/webiwg-issues/issues/6).
+_Nota: este documento NÃO foi revisado, e deve conter erros de português e de
+lógica do processo**. Veja também o tópico [#6](https://github.com/webiwg/webiwg-issues/issues/6)_.
+
+Índice
+
+- [Etapa 1 - Definição de pertinência](#etapa-1---definição-de-pertinência)
+- [Etapa 2 - Autorização para tradução](#etapa-2---autorização-para-tradução)
+- [Etapa 3 - Preparação do documento para tradução](#etapa-3---preparação-do-documento-para-tradução)
+- [Etapa 4 - Tradução](#etapa-4---tradução)
+- [Etapa 5 - Revisão geral e publicação](#etapa-4---revisão-gera-e-publicação)
+
+## O que ter em mente ao fazer traduções para o WebIWG
+Parte do nosso grupo de trabalho é especificamente de pessoas que traduzem
+documentos e podem ou não já serem especialistas em tegnologias da web. As
+traduções não precisam ser feitas as pressas. **Um bom prazo** para documentos
+que não fogem do comum em complexidade **é de 7 a 10 dias** após você e seu
+revisor confirmarem que estão trabalhando no documento.
+
+Sobre sua colaboração
+- **Assim como os demais do grupo, seu trabalho é voluntário**, ou seja, neste
+momento as traduções não são pagas; nos existimos justamente para viabilizar
+esse tipo de trabalho
+- **Seu trabalho como tradutor pode ser adicionado no seu Currículo Lattes**,
+na parte de _Produção bibliográfica_.
+- **Todos os artigos traduzidos por você terá um link de sua escolha** que
+pode ser uma bibliografia sua em nosso site ou uma URL a sua escolha; estas
+urls, diferentes do que ocorre na Wikipedia, não tem `rel="nofollow"`; caso
+haja multiplos tradutores e/ou revisores, as duas pessoas principais terão
+link
+<!--
+  fititnt: adicionais mais motivos no futuro
+
+- **Você recebera ajuda nossa para projetos relacionados**
+
+-->
 
 ## Etapa 1 - Definição de pertinência
 Etiquetas relacionadas:
@@ -212,4 +245,9 @@ Texto do artigo traduzido (...)
 ```
 
 A discussão mais completa sobre isso pode ser lida em [Estratégias para
-mitigar dúvidas em termos que devem (ou não) serem traduzidos](https://github.com/webiwg/webiwg-issues/issues/8),
+mitigar dúvidas em termos que devem (ou não) serem traduzidos](https://github.com/webiwg/webiwg-issues/issues/8).
+
+## Etapa 5 - Revisão geral e publicação
+Esta é a ultima etapa do processo. Tão logo a equipe de tradução diga que
+concluíu o processo, poderá haver uma nova revisão, principalmente
+relacionada a aparência visual do documento.
