@@ -60,7 +60,11 @@ irrelevantes a tradução.
 ### Como preparar documento
 
 TL;DR: documentos HTML podem ser convertidos para markdown com ajuda de
-ferramentas. Uma online é a https://domchristie.github.io/to-markdown/
+ferramentas. Uma online é a https://domchristie.github.io/to-markdown/.
+Depois de fazer a conversão e formatação, deixe pronto o original e
+o documento a ser traduzido exatamente com o mesmo conteúdo. Se for
+necessário fazer novas formatações visuais na edição traduzida,
+pode ser interessante editar também o original.
 
 #### Da origem dos dados
 Na maioria das vezes, a origem dos dados é uma página única, porém isso não
@@ -158,4 +162,54 @@ uma tradução, fiquem na mesma pasta da tradução, exceto em casos
 muito especiais em que a imagem é reutilizada muitas vezes, mas
 por padrão, adicione mais uma vez cada imagem.
 
+## Etapa 4 - Tradução
 
+Quando o documento já tiver sido preparado, a equipe de tradução estará
+liberada para iniciar os trabalhos. Em geral, o ideal para documento que não
+são muito grandes, o responsável principal pela tradução inicie e termine
+ela, e só então um ou mais revisores são convidados a iniciar sua etapa.
+
+### O que é Markdown?
+Você provavelmente fará a edição pela interface do Github, onde também tem
+opção para ver resultado visual em "Preview changes". Caso queira saber
+mais sobre markdown, leia https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
+
+Em geral, o documento a ser traduzido já vai ter sido preparado, então
+você poderá se focar mais em traduzir do que na formatação.
+
+### Faça tradução linha por linha
+O sistema de controle de versão git tende a ajudar investigar passado
+melhor se você mantiver próximo do que recebeu originalmente, e isso faz
+muita diferença se mantiver as linhas.
+
+Independente do tamanho de cada linha, **procure fazer as traduções linha por
+linha sem quebrar o resultado traduzido em mais linhas, nem mesclar linhas
+em relação ao original**.
+
+### Não tenho certeza da tradução de uma palavra
+Se não tem certeza da tradução de uma palavra, provisoriamente deixa a
+palavra ou o termo inteiro na lingua original, e a mantenha em itálico.
+`_underline no inicio e fim_` gera em italigo "_underline no inicio e fim_".
+
+Adicionalmente, você pode adicionar comentários, que não serão visíveis
+na página final. Isso pode ser feito iniciando o bloco com `<!--` e
+encerrando com `-->`. Por exemplo
+
+```markdown
+# Titulo do artigo a ser traduzido
+
+<!--
+  Notas de tradução:
+    fititnt: este bloco de conteudo usa tags de comentário de HTML e somente é visivel ao
+             se olhar o código fonte. É um bom local para deixar comentários para revisores
+             e outros tradutores, como por exemplo uma lista de palafras que ficou em dúvida
+             ou mesmo um comentário de "não terminei o ultimo parafrafo" 
+    dkmister: aqui outra pessoa deixando outro comentário. No caso seria o Vilmar
+-->
+
+Texto do artigo traduzido (...)
+
+```
+
+A discussão mais completa sobre isso pode ser lida em [Estratégias para
+mitigar dúvidas em termos que devem (ou não) serem traduzidos](https://github.com/webiwg/webiwg-issues/issues/8),
