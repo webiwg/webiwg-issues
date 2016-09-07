@@ -44,3 +44,73 @@ Casos em que não é viável pedir autorização para uma pessoa, ou que a fonte
 do artigo tipicamente não requer autorização prévia, ou mesmo que exige que
 a autorização só seja data APÓS a tradução, nos poderemos adicionar o
 marcador **traducao-autorizada-implicitamente**.
+
+## Etapa 3 - Preparação do documento para tradução
+Etiquetas relacionadas:
+- **traducao-bloqueado:3-preparacao**: o documento está pronto, ou provavelmente está em breve, e deve ser obtido da fonte original, convertido para markdown e preparado para tradutores
+- **traducao-liberado:3-preparacao**: o documento já foi convertido para markdown, e está pronto para tradutores iniciarem o processo
+
+Para textos pertinentes e autorizados, é necessário preparar a inclusão deles
+nos repositórios. **O ideal é que a equipe de pessoas tradutoras e
+revisoras não precise saber de HTML**, nem tenha que definir melhor forma de
+escolha de URLs, como armazenar imagens e afins. Isto também permite adição
+de conteúdo via _Pull Requests_, sem frustrar a pessoa tradutora com coisas
+irrelevantes a tradução.
+
+### Como preparar documento
+
+#### Da origem dos dados
+Na maioria das vezes, a origem dos dados é uma página única, porém isso não
+ocorrerá sempre. Um exemplo é a tradução de uma troca de e-mails que tem
+valor histórico, e requer que sejam acessadas várias páginas, ou mesmo que
+haja conversão de algum formato de imagem que é tão antigo que não há suporte
+dos navegadores atuais.
+
+Se este é um caso, a pessoa responsavel pela preparação do documento deverá
+usar de seu bom senso e deixar o mais fácil possível para a equipe tradutora.
+Isso poderá significar, por exemplo, que você deverá mesclar várias páginas
+em um só documento.
+
+**Lembre-se: em documentos grandes, esta preparação poderá selecionar apenas
+partes que são relevantes para tradução.**
+
+#### Da referência a links externos e biografia do autor
+Caso o documento a ser preparado tenha links a referências externas que tenham
+grande importância, ou a tradução desta referência deve ser junta, ou deve-se
+abrir um novo tópico para tradução. Tenha isto em mente, e deixe claro
+para os tradutores.
+
+Sempre que pertinente se o autor original, ou a instituição que ele representa
+ainda não estão adicionados na [historia-web-pt](https://github.com/webiwg/historia-web-pt)
+idealmente isto deve ser feito, ou no mínimo agendado para ser feito no futuro.
+
+Caso a biografia seja simples, a pessoa responsável pela preparação do conteúdo
+é convidada a já preparar isto também. Porém, se for algo mais complexo, por
+exemplo, como o [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/),
+vale a pena abrir um tópico exclusivo para traduzir a biografia dele.
+
+#### Da decisão de URL do documento
+No ideal é que **a URL do documento a ser traduzido não se altere com passar
+dos anos** por dois motivos:
+- Links para nosso site param de funcionar (e ninguém gosta disso, ainda mais se
+pretendemos ser referência não só para site, mas para impressos)
+- É complicado acompanhar histórico de edições pelo git de arquivos renomeados
+
+Tendo em mente esses dois problemas, se for possível escolher um bom nome que
+não precisará ser alterado no futuro, melhor. Se estiver em dúvida, discuta
+essa escolha com os demais
+
+### Da cópia de arquivo original como backup
+Idealmente, devemos ter pelo menos duas cópias no repositório, e opcionalmente
+uma terceira
+
+1. **Copia a ser traduzida**, exemplo `/nvda/mudando-do-jaws-para-o-nvda.md`
+2. **Copia do original, formatada**, exemplo `/nvda/_switching-from-jaws-to-nvda.md`
+3. **Cópia bruta do original**, (opcional!) e aplicável somente a documentos que
+podem ser alterados e não há um controle de versão na origem
+
+Os itens 1 e 2 sempre devem existir, e os itens 2 e 3 devem ter algum tipo de
+controle para não serem acessados, ou pelo menos indexados por mecanismos
+de busca, no site final gerado nos repositórios, pois é comum que autores
+permitam a tradução, mas não uma cópia idêntica do original em site de
+terceiros.
