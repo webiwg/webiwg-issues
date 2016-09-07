@@ -29,11 +29,14 @@ pode ser uma bibliografia sua em nosso site ou uma URL a sua escolha; estas
 urls, diferentes do que ocorre na Wikipedia, não tem `rel="nofollow"`; caso
 haja multiplos tradutores e/ou revisores, as duas pessoas principais terão
 link
+- **Suas traduções são inovadoras ou de grande importância histórica**, não
+existententes ainda em português; isso pode ser decisivo para você mais tarde
+ajudar a definir padrões a níveis nacionais ou internacionais, e causam grande
+simpatia no meio acadêmico ou mesmo empresas mais inovadoras
+- **Você recebera ajuda nossa para projetos relacionados**.
+
 <!--
   fititnt: adicionais mais motivos no futuro
-
-- **Você recebera ajuda nossa para projetos relacionados**
-
 -->
 
 ## Etapa 1 - Definição de pertinência
