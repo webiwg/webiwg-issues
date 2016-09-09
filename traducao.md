@@ -1,7 +1,6 @@
 # Processo de tradução da WebIWG
 
-_Nota: este documento NÃO foi revisado, e deve conter erros de português e de
-lógica do processo**. Veja também o tópico [#6](https://github.com/webiwg/webiwg-issues/issues/6)_.
+_Nota: ver o tópico [#6](https://github.com/webiwg/webiwg-issues/issues/6)_.
 
 Índice
 
@@ -12,28 +11,29 @@ lógica do processo**. Veja também o tópico [#6](https://github.com/webiwg/web
 - [Etapa 5 - Revisão geral e publicação](#etapa-4---revisão-gera-e-publicação)
 
 ## O que ter em mente ao fazer traduções para o WebIWG
-Parte do nosso grupo de trabalho é especificamente de pessoas que traduzem
-documentos e podem ou não já serem especialistas em tegnologias da web. As
-traduções não precisam ser feitas as pressas. **Um bom prazo** para documentos
-que não fogem do comum em complexidade **é de 7 a 10 dias** após você e seu
-revisor confirmarem que estão trabalhando no documento.
+Parte do nosso grupo de trabalho é formado por pessoas que traduzem documentos
+e podem ou não ser especialistas em tecnologias da web. As traduções não precisam
+ser feitas às pressas. Um bom prazo para documentos que não fogem do comum em
+termos de complexidade estaria entre **7 a 10 dias** após você e seu revisor
+confirmarem que estão trabalhando no documento.
 
-Sobre sua colaboração
-- **Assim como os demais do grupo, seu trabalho é voluntário**, ou seja, neste
-momento as traduções não são pagas; nos existimos justamente para viabilizar
-esse tipo de trabalho
-- **Seu trabalho como tradutor pode ser adicionado no seu Currículo Lattes**,
-na parte de _Produção bibliográfica_.
-- **Todos os artigos traduzidos por você terá um link de sua escolha** que
-pode ser uma bibliografia sua em nosso site ou uma URL a sua escolha; estas
-urls, diferentes do que ocorre na Wikipedia, não tem `rel="nofollow"`; caso
-haja multiplos tradutores e/ou revisores, as duas pessoas principais terão
-link
-- **Suas traduções são inovadoras ou de grande importância histórica**, não
-existententes ainda em português; isso pode ser decisivo para você mais tarde
+## Sobre sua colaboração
+
+- **Assim como os demais membros do grupo, seu trabalho é voluntário**, ou seja,
+neste momento as traduções não são remuneradas; nós existimos justamente para
+viabilizar esse tipo de trabalho.
+- **Seu trabalho como tradutor pode ser adicionado ao seu currículo Lattes**,
+na seção de _produção bibliográfica_.
+- **Todos os artigos traduzidos por você terão um link de sua escolha** que
+pode ser uma bibliografia sua em nosso site ou uma URL a sua escolha. Este
+link, diferentemente do que ocorre em sites como a Wikipedia, não terá
+`rel="nofollow"`. Caso haja múltiplos tradutores e/ou revisores, os dois principais
+envolvidos deterão direito a link.
+- **Suas traduções são inovadoras e de grande importância histórica**, não
+existentes ainda em português. Isso pode ser decisivo para você mais tarde
 ajudar a definir padrões a níveis nacionais ou internacionais, e causam grande
-simpatia no meio acadêmico ou mesmo empresas mais inovadoras
-- **Você recebera ajuda nossa para projetos relacionados**.
+simpatia no meio acadêmico ou mesmo entre empresas mais inovadoras.
+- **Você receberá ajuda nossa para projetos relacionados**.
 
 <!--
   fititnt: adicionais mais motivos no futuro
