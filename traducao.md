@@ -93,121 +93,124 @@ específico da autorização implícita.
 -->
 
 ## Etapa 3 - Preparação do documento para tradução
-Etiquetas relacionadas:
-- **traducao-bloqueado:3-preparacao**: o documento está pronto, ou provavelmente está em breve, e deve ser obtido da fonte original, convertido para markdown e preparado para tradutores
-- **traducao-liberado:3-preparacao**: o documento já foi convertido para markdown, e está pronto para tradutores iniciarem o processo
 
-Para textos pertinentes e autorizados, é necessário preparar a inclusão deles
-nos repositórios. **O ideal é que a equipe de pessoas tradutoras e
-revisoras não precise saber de HTML**, nem tenha que definir melhor forma de
-escolha de URLs, como armazenar imagens e afins. Isto também permite adição
-de conteúdo via _Pull Requests_, sem frustrar a pessoa tradutora com coisas
-irrelevantes a tradução.
+Para textos autorizados, é necessário preparar a inclusão deles nos
+repositórios. **Os tradutores e revisores não precisam saber HTML** ou deter
+conhecimento relacionado a URLs ou armazenamento de hipermídia anexa. Isso
+flexibiliza a adição de conteúdo via _pull requests_ e elimina requisitos que
+poderiam afastar voluntários engajados apenas no processo de tradução.
 
-### Como preparar documento
+### Como preparar documentos
 
-TL;DR: documentos HTML podem ser convertidos para markdown com ajuda de
-ferramentas. Uma online é a https://domchristie.github.io/to-markdown/.
-Depois de fazer a conversão e formatação, deixe pronto o original e
-o documento a ser traduzido exatamente com o mesmo conteúdo. Se for
-necessário fazer novas formatações visuais na edição traduzida,
-pode ser interessante editar também o original.
+Documentos HTML podem ser convertidos para Markdown com ajuda de ferramentas.
+Uma delas é a https://domchristie.github.io/to-markdown/, disponível para uso
+online. Depois de fazer a conversão e formatação, **deixe pronto o original e
+o documento a ser traduzido exatamente com o mesmo conteúdo**. Se for necessário
+fazer novas formatações visuais na edição traduzida, edite também o original.
 
 #### Da origem dos dados
+
 Na maioria das vezes, a origem dos dados é uma página única, porém isso não
 ocorrerá sempre. Um exemplo é a tradução de uma troca de e-mails que tem
-valor histórico, e requer que sejam acessadas várias páginas, ou mesmo que
+valor histórico, que requer que sejam acessadas várias páginas ou mesmo que
 haja conversão de algum formato de imagem que é tão antigo que não há suporte
-dos navegadores atuais.
+nos navegadores atuais. Se este é um caso, a pessoa responsável pela preparação
+do documento deverá usar de seu bom senso e deixar o mais fácil possível para a
+equipe tradutora. Isso poderá significar, por exemplo, que você deverá mesclar
+várias páginas em um só documento.
 
-Se este é um caso, a pessoa responsavel pela preparação do documento deverá
-usar de seu bom senso e deixar o mais fácil possível para a equipe tradutora.
-Isso poderá significar, por exemplo, que você deverá mesclar várias páginas
-em um só documento.
-
-**Lembre-se: em documentos grandes, esta preparação poderá selecionar apenas
+**Lembre-se: em documentos grandes, esta preparação poderá selecionar apenas as
 partes que são relevantes para tradução.**
 
 #### Da referência a links externos e biografia do autor
-Caso o documento a ser preparado tenha links a referências externas que tenham
-grande importância, ou a tradução desta referência deve ser junta, ou deve-se
-abrir um novo tópico para tradução. Tenha isto em mente, e deixe claro
-para os tradutores.
 
-Sempre que pertinente se o autor original, ou a instituição que ele representa
-ainda não estão adicionados na [historia-web-pt](https://github.com/webiwg/historia-web-pt)
-idealmente isto deve ser feito, ou no mínimo agendado para ser feito no futuro.
+Caso o documento a ser preparado tenha links a referências externas que têm
+grande importância, ou a tradução desta referência deve ser conjunta, ou deve-se
+abrir um novo tópico para tradução. Tenha isto em mente e deixe claro para os
+tradutores.
 
-Caso a biografia seja simples, a pessoa responsável pela preparação do conteúdo
-é convidada a já preparar isto também. Porém, se for algo mais complexo, por
-exemplo, como o [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/),
-vale a pena abrir um tópico exclusivo para traduzir a biografia dele.
+Sempre que pertinente, se o autor original, ou a instituição que ele representa,
+ainda não estão adicionados na
+[historia-web-pt](https://github.com/webiwg/historia-web-pt), então isto deve
+ser feito assim que possível. Caso a biografia seja simples, a pessoa
+responsável pela preparação do conteúdo é convidada a já preparar isto também.
+Para algo mais complexo como, por exemplo, a biografia de
+[Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/), vale a pena abrir um
+tópico exclusivo para traduzir a biografia.
 
 #### Da decisão de URL do documento
-No ideal é que **a URL do documento a ser traduzido não se altere com passar
-dos anos** por dois motivos:
-- Links para nosso site param de funcionar (e ninguém gosta disso, ainda mais se
-pretendemos ser referência não só para site, mas para impressos)
-- É complicado acompanhar histórico de edições pelo git de arquivos renomeados
 
-Tendo em mente esses dois problemas, se for possível escolher um bom nome que
-não precisará ser alterado no futuro, melhor. Se estiver em dúvida, discuta
-essa escolha com os demais
+É almejável que **a URL do documento a ser traduzido não se altere com passar
+dos anos** por dois motivos:
+
+- Links para nosso site param de funcionar (e ninguém gosta disso, ainda mais se
+  pretendemos ser referência não só para a web, como também para impressos);
+- É complicado acompanhar histórico de edições de arquivos renomeados através do
+  git.
+
+A julgar por esses dois problemas, sempre que possível escolha um bom nome que
+não precisará ser alterado no futuro. Se estiver em dúvida, discuta essa escolha
+com os demais membros do grupo.
 
 #### Da cópia de arquivo original como backup
-Idealmente, devemos ter pelo menos duas cópias no repositório, e opcionalmente
-uma terceira
 
-1. **Copia a ser traduzida**, exemplo `/nvda/mudando-do-jaws-para-o-nvda/index.md`
-2. **Copia do original, formatada**, exemplo `/nvda/mudando-do-jaws-para-o-nvda/_original.md`
-3. **Cópia bruta do original**, (opcional!) e aplicável somente a documentos que
-podem ser alterados e não há um controle de versão na origem
+Idealmente, devemos ter pelo menos duas cópias no repositório e, opcionalmente,
+uma terceira:
 
-Os itens 1 e 2 sempre devem existir, e os itens 2 e 3 devem ter algum tipo de
-controle para não serem acessados, ou pelo menos indexados por mecanismos
-de busca, no site final gerado nos repositórios, pois é comum que autores
-permitam a tradução, mas não uma cópia idêntica do original em site de
-terceiros.
+1. **Copia a ser traduzida**, e.g. `/nvda/mudando-do-jaws-para-o-nvda/index.md`;
+2. **Copia formatada do original**, e.g.
+   `/nvda/mudando-do-jaws-para-o-nvda/_original.md`;
+3. **Cópia bruta do original (opcional)**, aplicável somente a documentos que
+podem ser alterados e cujo origem não possui um controle de versão.
+
+Os itens 1 e 2 sempre devem existir e os itens 2 e 3 devem ter algum tipo de
+controle para não serem acessados (ou pelo menos indexados por mecanismos de
+busca) no site final gerado nos repositórios, pois é comum que autores permitam
+a tradução sem uma cópia idêntica do original em site de terceiros.
 
 #### Da formatação do documento
 
 **Muito importante**: a formatação do documento, além de resolver conversão de
-outros formatos para markdown, **tem como objetivo facilitar o trabalho da
+outros formatos para Markdown, **tem como objetivo facilitar o trabalho da
 equipe de tradução em detrimento de formatação de texto, limite de colunas,
 e afins**. Como o tamanho das palavras sempre serão diferentes de um idioma
-para o outro, é melhor usar o bom senso do que forçar um limite de, por
-exemplo, 80 caracteres.
+para o outro, é melhor usar o bom senso do que forçar um limite de, por exemplo,
+80 caracteres.
 
 ##### Da escolha de quebra de linhas
-A equipe de tradução será orientada a fazer tradução linha por linha, e
-não serão convidados sequer a saber quantidade de caracteres por linha. É
-responsabilidade de quem formata o documento usar bom senso e que, a
-escolha que você tomar, vai ficar assim por anos. Não que isso seja algo
-grave, mas facilita se levar em consideração alguns pontos a seguir.
 
-**Procure fazer quebras de linhas somente a cada ponto final** ou, se as
-frases forem MUITO grandes, como um parágrafo inteiro, **quebre após 
-alguma virgula**. A meta é que a equipe de tradução tenda a manter
-a tradução exata anterior na mesma alteração de linha. Isto facilita
-na hora de investigar o passado.
+A equipe de tradução será orientada a fazer tradução linha por linha, e não
+serão convidados sequer a saber quantidade de caracteres por linha. É
+responsabilidade de quem formata o documento usar bom senso e arcar com o fato
+de que a escolha tomada perdurará por anos. Não que isso seja algo grave, mas
+facilita se levar em consideração alguns pontos a seguir.
 
-Tende a não valer a pena quebrar linhas em itens que fazem mais sentido
-juntos. Por exemplo, um título (h1, h2, h3...) no original, mesmo que
-seja grande, pode valer a pena deixar junto. Uma legenda de imagem
-que não for muito grande também pode fazer mais sentido manter na mesma
-linha.
+**Procure fazer quebras de linhas somente a cada ponto final** ou, se as frases
+forem _muito_ grandes, como um parágrafo inteiro, **quebre após alguma
+virgula**. A meta é que a equipe de tradução tenda a manter a tradução exata
+anterior na mesma alteração de linha. Isto facilita na hora de investigar o
+passado.
+
+Não agrega valor quebrar linhas em itens que fazem mais sentido juntos. Por
+exemplo, um título (h1, h2, h3...) no original, mesmo que seja grande, ficará
+melhor descrito numa única linha. Uma legenda de imagem que não for muito grande
+também pode fazer mais sentido quando mantida na mesma linha.
 
 #### Da inclusão de imagens
-Caso seja necessário adicionar imagens do original, o ideal é que elas
-já estejam otimizadas para serem exibidas via web, a não ser que a
-razão de existir das imagens seja permitir impressão. É recomendável
-que vocễ use sites como https://tinypng.com/ ou https://tinyjpg.com/
-antes de adicionar a imagem.
 
-Outro ponto é que idealmente imagens e arquivos relacionados a
-uma tradução, fiquem na mesma pasta da tradução, exceto em casos
-muito especiais em que a imagem é reutilizada muitas vezes, mas
-por padrão, adicione mais uma vez cada imagem.
+Caso seja necessário adicionar imagens do original, elas precisam estar
+otimizadas para serem exibidas na web, a não ser que a razão de existir das
+imagens seja permitir impressão. É recomendável que você use sites como
+https://tinypng.com/ ou https://tinyjpg.com/ antes de adicionar a imagem.
+
+<!--
+  @tassoevan: pedir esclarecimento sobre a frase "a não ser que a razão de
+              existir das imagens seja permitir impressão"
+-->
+
+Outro conselho é que imagens e arquivos relacionados a uma tradução devem ficar
+no mesmo diretório da tradução, exceto em casos muito especiais em que a imagem
+é reutilizada muitas vezes; mas, por padrão, adicione mais uma vez cada imagem.
 
 ## Etapa 4 - Tradução
 
