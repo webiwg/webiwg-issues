@@ -11,11 +11,12 @@ _Nota: ver o tópico [#6](https://github.com/webiwg/webiwg-issues/issues/6)_.
 - [Etapa 5 - Revisão geral e publicação](#etapa-4---revisão-gera-e-publicação)
 
 ## O que ter em mente ao fazer traduções para o WebIWG
+
 Parte do nosso grupo de trabalho é formado por pessoas que traduzem documentos
-e podem ou não ser especialistas em tecnologias da web. As traduções não precisam
-ser feitas às pressas. Um bom prazo para documentos que não fogem do comum em
-termos de complexidade estaria entre **7 a 10 dias** após você e seu revisor
-confirmarem que estão trabalhando no documento.
+e podem ou não ser especialistas em tecnologias da web. As traduções não
+precisam ser feitas às pressas. Um bom prazo para documentos que não fogem do
+comum em termos de complexidade estaria entre **7 a 10 dias** após você e seu
+revisor confirmarem que estão trabalhando no documento.
 
 ## Sobre sua colaboração
 
@@ -27,8 +28,8 @@ na seção de _produção bibliográfica_.
 - **Todos os artigos traduzidos por você terão um link de sua escolha** que
 pode ser uma bibliografia sua em nosso site ou uma URL a sua escolha. Este
 link, diferentemente do que ocorre em sites como a Wikipedia, não terá
-`rel="nofollow"`. Caso haja múltiplos tradutores e/ou revisores, os dois principais
-envolvidos deterão direito a link.
+`rel="nofollow"`. Caso haja múltiplos tradutores e/ou revisores, os dois
+principais envolvidos deterão direito a link.
 - **Suas traduções são inovadoras e de grande importância histórica**, não
 existentes ainda em português. Isso pode ser decisivo para você mais tarde
 ajudar a definir padrões a níveis nacionais ou internacionais, e causam grande
