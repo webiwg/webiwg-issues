@@ -41,46 +41,56 @@ simpatia no meio acadêmico ou mesmo entre empresas mais inovadoras.
 -->
 
 ## Etapa 1 - Definição de pertinência
-Etiquetas relacionadas:
-- **traducao-bloqueado:1-pertinencia**: usado quando pertiência ainda não está
-definida; se a proposta, no momento da decisão, deve seguir adiante ou se
-bloqueada
 
-As traduções feitas por nosso grupo de trabalho ficam em [webiwg/historia-web-pt](https://github.com/webiwg/historia-web-pt)
-e [webiwg/acessibilidade-web-pt](https://github.com/webiwg/acessibilidade-web-pt)
-e todas as **sugestões de traduções devem ter alguma relação com o propósito
-destes repositórios**. Além disso, mesmo que elas sejam pertinentes e tenham
-relação com o conteúdo, tal sugestão de tradução poderá, a critério da
-complexidade da tradução e da disponibilidade de equipe livre, ser marcada
-como não pertinente em carater temporário.
+As traduções feitas por nosso grupo de trabalho se encontram nos repositórios
+[webiwg/historia-web-pt](https://github.com/webiwg/historia-web-pt) e
+[webiwg/acessibilidade-web-pt](https://github.com/webiwg/acessibilidade-web-pt);
+todas as **sugestões de traduções devem ter alguma relação com o propósito
+destes repositórios**. Para sugerir uma tradução, abra um issue com:
+
+- título idêntico ao do documento proposto;
+- descrição contendo:
+  1. link do original;
+  2. descrição curta do documento;
+  3. e traduções já existentes em língua portuguesa;
+- e marcador `traducao`.
+
+Além disso, mesmo que seja pertinente e tenha relação com o conteúdo, a sugestão
+poderá, a critério da complexidade da tradução e da disponibilidade de equipe
+livre, ser marcada como não pertinente em carater temporário.
 
 ## Etapa 2 - Autorização para tradução
-Etiquetas relacionadas:
-- **traducao-bloqueado:2-autorizacao**: usada quando deve-se pedir autorização para fonte original
-- **traducao-andamento:2-autorizacao**: uma ou mais pessoas já estão em contato para pedir autorização; veja o tópico para detalhes adicionais
-- **traducao-autorizada**: a tradução especifica deste item está autorizada; este marcador pode ser adicionado também em casos que o autor costuma liberar de antemão todas as traduções
-- **traducao-autorizada-implicitamente**: este item não foi autorizado para tradução explicitamente, mas assume-se que é possível ser traduzido sem pedir explicitamente
 
-É uma boa prática pedir autorização prévia para nossa equipe traduzir. É comum
-que o fato de nosso grupo não ter fins lucrativos, e ser focado em ter como
-objetivo trazer para o português textos de alta qualidade quanto a carater
-educacional ou na história da web, que nos autorizem e até nos agradeçam. Ao
-pedirmos autorização, isto também típicamente permite ao autor original:
-- No artigo original, por link para nossa tradução
-- Fazer observações sobre o texto. Por exemplo, dizer que está desatualizado
-e pretende fazer a correção antes de traduzirmos
-- Informar no futuro de atualizações do documento
+É uma boa prática pedir autorização prévia a autores e mantenedores para nossa
+equipe traduzir. Por este grupo não ter fins lucrativos e destinar-se a levar
+textos de alta qualidade para a língua portuguesa que possuam caráter histórico
+e/ou educacional, os autores costumam ser simpáticos a traduções voluntárias, o
+que, contudo, não implica autorização automática da reprodução do seu trabalho
+criativo. Ao pedirmos autorização, permite-se ao autor original:
 
-Quando um autor, ou detentor dos direitos de cópia autoriza, nos adicionamos
-o marcador **traducao-autorizada**. Isto quer dizer que há alguma comprovação
-de que estamos autorizados explicitamente para o texto a ser traduzido, ou
-então houve autorização para traduzir todos os textos daquele autor ou do
-seu site.
+- Referenciar a nossa tradução por link no artigo original;
+- Fazer observações sobre o texto (e.g. indicar desatualização/erro no original
+  que deve corrigido antes da tradução);
+- Informar sobre futuras atualizações do documento.
 
-Casos em que não é viável pedir autorização para uma pessoa, ou que a fonte
-do artigo tipicamente não requer autorização prévia, ou mesmo que exige que
-a autorização só seja data APÓS a tradução, nos poderemos adicionar o
-marcador **traducao-autorizada-implicitamente**.
+Quando um autor ou detentor dos direitos de cópia autoriza, nós adicionamos
+um marcador específico à issue indicando que há alguma comprovação de que
+estamos explicitamente autorizados para tradução do documento, de uma série de
+documentos ou de um blog/site.
+
+<!--
+  @tassoevan: referenciar o marcador da etapa de autorização e dos estados da
+              etapa
+-->
+
+Há casos em que não é viável, necessário ou possível pedir autorização para uma
+pessoa, como em documentos de domínio público, com licença específica informada
+ou com autorização liberada apenas _após_ a tradução, recebendo marcador
+específico da autorização implícita.
+
+<!--
+  @tassoevan: referenciar o marcador da autorização implícita
+-->
 
 ## Etapa 3 - Preparação do documento para tradução
 Etiquetas relacionadas:
