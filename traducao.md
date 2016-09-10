@@ -161,7 +161,7 @@ uma terceira:
 2. **Copia formatada do original**, e.g.
    `/nvda/mudando-do-jaws-para-o-nvda/_original.md`;
 3. **Cópia bruta do original (opcional)**, aplicável somente a documentos que
-podem ser alterados e cujo origem não possui um controle de versão.
+podem ser alterados e cuja origem não possui um controle de versão.
 
 Os itens 1 e 2 sempre devem existir e os itens 2 e 3 devem ter algum tipo de
 controle para não serem acessados (ou pelo menos indexados por mecanismos de
