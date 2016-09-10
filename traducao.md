@@ -37,7 +37,7 @@ simpatia no meio acadêmico ou mesmo entre empresas mais inovadoras.
 - **Você receberá ajuda nossa para projetos relacionados**.
 
 <!--
-  fititnt: adicionais mais motivos no futuro
+  @fititnt: adicionais mais motivos no futuro
 -->
 
 ## Etapa 1 - Definição de pertinência
@@ -247,11 +247,11 @@ encerrando com `-->`. Por exemplo
 
 <!--
   Notas de tradução:
-    fititnt: este bloco de conteudo usa tags de comentário de HTML e somente é visivel ao
-             se olhar o código fonte. É um bom local para deixar comentários para revisores
-             e outros tradutores, como por exemplo uma lista de palafras que ficou em dúvida
-             ou mesmo um comentário de "não terminei o ultimo parafrafo" 
-    dkmister: aqui outra pessoa deixando outro comentário. No caso seria o Vilmar
+    @fititnt: este bloco de conteudo usa tags de comentário de HTML e somente é visivel ao
+              se olhar o código fonte. É um bom local para deixar comentários para revisores
+              e outros tradutores, como por exemplo uma lista de palafras que ficou em dúvida
+              ou mesmo um comentário de "não terminei o ultimo parafrafo"
+    @dkmister: aqui outra pessoa deixando outro comentário. No caso seria o Vilmar
 -->
 
 Texto do artigo traduzido (...)
