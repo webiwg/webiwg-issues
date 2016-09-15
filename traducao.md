@@ -8,7 +8,7 @@ _Nota: ver o tópico [#6](https://github.com/webiwg/webiwg-issues/issues/6)_.
 - [Etapa 2 - Autorização para tradução](#etapa-2---autorização-para-tradução)
 - [Etapa 3 - Preparação do documento para tradução](#etapa-3---preparação-do-documento-para-tradução)
 - [Etapa 4 - Tradução](#etapa-4---tradução)
-- [Etapa 5 - Revisão geral e publicação](#etapa-4---revisão-gera-e-publicação)
+- [Etapa 5 - Revisão geral e publicação](#etapa-5---revisão-geral-e-publicação)
 
 ## O que ter em mente ao fazer traduções para o WebIWG
 
